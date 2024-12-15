@@ -18,7 +18,6 @@ async function getquote(url) {
 
 getquote(apiUrl);
 
-
 function twit() {
     window.open(`https://twitter.com/intent/tweet?text=${quote.innerHTML}`, "Twit Window", "width = 640px, height = 480px")
 }
